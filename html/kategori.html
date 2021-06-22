@@ -1,0 +1,93 @@
+<?php
+  include_once("conn.php");
+    session_start();
+    if (!(isset($_SESSION['username']) && !empty($_SESSION['username']))){
+        header("Location: login.php");
+    }
+?>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Pasar</title>
+  <link rel="stylesheet" type="text/css" href="../style/main.css">
+
+
+  <link
+      href="https://fonts.googleapis.com/css?family=Oxygen"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+  <nav
+      id="fm-navbar"
+      class="navbar sticky-top navbar-expand-lg "
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.php">
+          <img src="../img/logo.png" id="logo" alt="" style="max-height: 50px;max-width: 50px;margin: 7px;"/>
+        </a>
+
+        <div class="search-container">
+          <form action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+        </div>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link pr-color" href="../index.php"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pr-color" href="./kategori.html"
+                >Kategori</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pr-color" href="./login.php"> My profile </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pr-color" href="./About.html"
+                >About us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <img src="../img/warn.png" style="position: relative;left: 40%;margin-top: 10%;max-height:256px;max-width: 256px; opacity: 0.6;">
+</body>
+
+</html>

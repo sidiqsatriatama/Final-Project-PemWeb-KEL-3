@@ -1,0 +1,26 @@
+[22-Jun-2021 13:03:38 Asia/Jakarta] PHP Notice:  Undefined variable: _SESSION in /home/hubm3754/public_html/onnary/html/fileHandler/toExcel.php on line 16
+[22-Jun-2021 13:03:54 Asia/Jakarta] PHP Notice:  Undefined variable: _SESSION in /home/hubm3754/public_html/onnary/html/fileHandler/toExcel.php on line 16
+[22-Jun-2021 13:04:14 Asia/Jakarta] PHP Notice:  Undefined variable: _SESSION in /home/hubm3754/public_html/onnary/html/fileHandler/toExcel.php on line 16
+[22-Jun-2021 13:17:07 Asia/Jakarta] PHP Notice:  Undefined variable: _SESSION in /home/hubm3754/public_html/onnary/html/fileHandler/toExcel.php on line 16
+[22-Jun-2021 13:20:54 Asia/Jakarta] PHP Notice:  Undefined variable: _SESSION in /home/hubm3754/public_html/onnary/html/fileHandler/toExcel.php on line 16
+[22-Jun-2021 13:21:27 Asia/Jakarta] PHP Notice:  Undefined variable: _SESSION in /home/hubm3754/public_html/onnary/html/fileHandler/toPdf.php on line 7
+[22-Jun-2021 13:26:18 Asia/Jakarta] PHP Notice:  Undefined variable: _SESSION in /home/hubm3754/public_html/onnary/html/fileHandler/toPdf.php on line 7
+[22-Jun-2021 13:27:17 Asia/Jakarta] PHP Notice:  Undefined variable: _SESSION in /home/hubm3754/public_html/onnary/html/fileHandler/toExcel.php on line 16
+[22-Jun-2021 13:29:50 Asia/Jakarta] PHP Notice:  Undefined variable: _SESSION in /home/hubm3754/public_html/onnary/html/fileHandler/toPdf.php on line 7
+[22-Jun-2021 13:31:12 Asia/Jakarta] PHP Notice:  Undefined variable: _SESSION in /home/hubm3754/public_html/onnary/html/fileHandler/toPdf.php on line 7
+[22-Jun-2021 13:31:13 Asia/Jakarta] PHP Notice:  Undefined variable: _SESSION in /home/hubm3754/public_html/onnary/html/fileHandler/toPdf.php on line 7
+[22-Jun-2021 13:32:22 Asia/Jakarta] PHP Notice:  Undefined variable: _SESSION in /home/hubm3754/public_html/onnary/html/fileHandler/toExcel.php on line 16
+[22-Jun-2021 13:33:59 Asia/Jakarta] PHP Notice:  Undefined variable: _SESSION in /home/hubm3754/public_html/onnary/html/fileHandler/toPdf.php on line 7
+[22-Jun-2021 14:11:53 Asia/Jakarta] PHP Notice:  Undefined variable: _SESSION in /home/hubm3754/public_html/onnary/html/fileHandler/toPdf.php on line 7
+[22-Jun-2021 14:16:51 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method PhpOffice\PhpSpreadsheet\Writer\Xlsx::download() in /home/hubm3754/public_html/onnary/html/fileHandler/toExcel.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/hubm3754/public_html/onnary/html/fileHandler/toExcel.php on line 42
+[22-Jun-2021 14:16:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method PhpOffice\PhpSpreadsheet\Writer\Xlsx::download() in /home/hubm3754/public_html/onnary/html/fileHandler/toExcel.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/hubm3754/public_html/onnary/html/fileHandler/toExcel.php on line 42
+[22-Jun-2021 14:16:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method PhpOffice\PhpSpreadsheet\Writer\Xlsx::download() in /home/hubm3754/public_html/onnary/html/fileHandler/toExcel.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/hubm3754/public_html/onnary/html/fileHandler/toExcel.php on line 42
